@@ -10,11 +10,16 @@ class Person:
   def changeName(self, new_name):
       self.name = new_name
 
+  def changeAge(self, new_age):
+      self.age = new_age
+
   def equals(self, other):
       if self.name == other.name and self.age == other.age:
           return 1
       else:
           return 0
+
+
 
 
 
